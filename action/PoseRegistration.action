@@ -1,0 +1,12 @@
+#goal definition
+string acting
+---
+#result definition
+uint8 RES_SUCCEED=0
+uint8 RES_FAILED=1
+uint8 result
+---
+#feedback
+uint8 PROC_STANDBY=0
+uint8 PROC_ACTING=1
+uint8 feedback
