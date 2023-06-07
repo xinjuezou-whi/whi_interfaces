@@ -51,6 +51,7 @@ add_message_files(
   FILES
    WhiEng.msg
    WhiBattery.msg
+   WhiMotionInterface.msg
 )
 
 ## Generate services in the 'srv' folder
