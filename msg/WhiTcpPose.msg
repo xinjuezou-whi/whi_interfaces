@@ -1,0 +1,2 @@
+string pose_group
+geometry_msgs/PoseStamped tcp_pose

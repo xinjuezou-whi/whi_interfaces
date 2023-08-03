@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   message_generation
   actionlib_msgs
+  geometry_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -52,6 +53,7 @@ add_message_files(
    WhiEng.msg
    WhiBattery.msg
    WhiMotionState.msg
+   WhiTcpPose.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -73,6 +75,7 @@ generate_messages(
   DEPENDENCIES
    std_msgs  # Or other packages containing msgs
    actionlib_msgs
+   geometry_msgs
 )
 
 ################################################
@@ -110,6 +113,7 @@ catkin_package(
   CATKIN_DEPENDS
    message_runtime
    actionlib_msgs
+   geometry_msgs
 #  DEPENDS system_lib
 )
 
