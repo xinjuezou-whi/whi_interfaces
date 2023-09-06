@@ -1,8 +1,9 @@
 uint8 OPER_READ=0
 uint8 OPER_WRITE=1
 string name
-uint8 register
+uint8 reg
 uint8 level
 uint8 operation
 ---
+uint8 level
 bool result
