@@ -1,2 +1,4 @@
 string pose_group
 geometry_msgs/PoseStamped tcp_pose
+float64 velocity_scale
+float64 acceleration_scale
