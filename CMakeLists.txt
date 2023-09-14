@@ -54,6 +54,8 @@ add_message_files(
    WhiBattery.msg
    WhiMotionState.msg
    WhiTcpPose.msg
+   WhiBoundingBox.msg
+   WhiBoundingBoxes.msg
 )
 
 ## Generate services in the 'srv' folder
