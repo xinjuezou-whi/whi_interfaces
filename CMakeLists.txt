@@ -63,6 +63,7 @@ add_service_files(
   FILES
    WhiSrvTcpPose.srv
    WhiSrvIo.srv
+   WhiSrvQrOffset.srv
 )
 
 ## Generate actions in the 'action' folder
