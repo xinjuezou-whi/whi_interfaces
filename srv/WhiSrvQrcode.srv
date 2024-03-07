@@ -1,3 +1,4 @@
 
 ---
+string code
 geometry_msgs/PoseStamped offset_pose
