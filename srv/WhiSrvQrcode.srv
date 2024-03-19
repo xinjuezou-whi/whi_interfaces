@@ -1,4 +1,4 @@
-
+int32 timeout
 ---
 string code
 geometry_msgs/PoseStamped offset_pose
