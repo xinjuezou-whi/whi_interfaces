@@ -64,6 +64,7 @@ add_service_files(
    WhiSrvTcpPose.srv
    WhiSrvIo.srv
    WhiSrvQrcode.srv
+   WhiSrvSerial.srv
 )
 
 ## Generate actions in the 'action' folder
