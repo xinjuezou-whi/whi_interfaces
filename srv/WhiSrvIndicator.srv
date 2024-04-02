@@ -1,0 +1,4 @@
+whi_interfaces/WhiIndicator instance
+---
+uint32 status
+bool result

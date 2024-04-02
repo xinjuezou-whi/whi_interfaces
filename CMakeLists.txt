@@ -56,6 +56,7 @@ add_message_files(
    WhiTcpPose.msg
    WhiBoundingBox.msg
    WhiBoundingBoxes.msg
+   WhiIndicator.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -64,7 +65,7 @@ add_service_files(
    WhiSrvTcpPose.srv
    WhiSrvIo.srv
    WhiSrvQrcode.srv
-   WhiSrvSerial.srv
+   WhiSrvIndicator.srv
 )
 
 ## Generate actions in the 'action' folder

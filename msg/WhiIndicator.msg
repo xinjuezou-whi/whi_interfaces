@@ -1,6 +1,3 @@
 string name
 string param
 uint32 value
----
-uint32 status
-bool result
