@@ -1,4 +1,5 @@
 string pose_group
 geometry_msgs/PoseStamped tcp_pose
+moveit_msgs/JointConstraint[] joint_constraints
 float64 velocity_scale
 float64 acceleration_scale
