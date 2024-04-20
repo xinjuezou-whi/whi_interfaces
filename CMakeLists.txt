@@ -59,6 +59,7 @@ add_message_files(
    WhiBoundingBoxes.msg
    WhiIndicator.msg
    WhiRcState.msg
+   WhiTaskState.msg
 )
 
 ## Generate services in the 'srv' folder
