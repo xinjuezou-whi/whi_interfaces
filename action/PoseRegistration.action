@@ -1,5 +1,5 @@
 #goal definition
-string acting
+geometry_msgs/PoseStamped target_pose
 ---
 #result definition
 uint8 RES_SUCCEED=0
