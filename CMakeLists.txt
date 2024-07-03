@@ -69,6 +69,7 @@ add_service_files(
    WhiSrvIo.srv
    WhiSrvQrcode.srv
    WhiSrvIndicator.srv
+   WhiSrvRead.srv
 )
 
 ## Generate actions in the 'action' folder
