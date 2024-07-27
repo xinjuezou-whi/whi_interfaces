@@ -60,6 +60,7 @@ add_message_files(
    WhiIndicator.msg
    WhiRcState.msg
    WhiTaskState.msg
+   WhiPartialDischarge.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -69,7 +70,7 @@ add_service_files(
    WhiSrvIo.srv
    WhiSrvQrcode.srv
    WhiSrvIndicator.srv
-   WhiSrvRead.srv
+   WhiSrvReadDischarge.srv
 )
 
 ## Generate actions in the 'action' folder
