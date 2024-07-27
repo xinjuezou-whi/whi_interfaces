@@ -1,5 +1,3 @@
 int32 addr
 ---
-whi_interfaces/WhiPartialDischarge tev
-whi_interfaces/WhiPartialDischarge aa
-whi_interfaces/WhiPartialDischarge uhf
+whi_interfaces/WhiPartialDischarge[] data

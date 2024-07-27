@@ -3,6 +3,9 @@ uint8 STA_NORMAL=1
 uint8 STA_CHANNEL_1_ALERT=2
 uint8 STA_DISCHARGE_HIGH=3
 uint8 STA_DISCHARGE_ALERT=4
+uint8 CH_TEV=0
+uint8 CH_AA=1
+uint8 CH_UHF=2
 float64 peak
 float64 average
 float64 noise
@@ -10,3 +13,4 @@ float64 phase
 int32 count
 int32 cycle_count
 uint8 state
+uint8 channel
