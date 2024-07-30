@@ -61,6 +61,8 @@ add_message_files(
    WhiRcState.msg
    WhiTaskState.msg
    WhiPartialDischarge.msg
+   WhiVectorFloat.msg
+   WhiLineChart2D.msg
 )
 
 ## Generate services in the 'srv' folder
