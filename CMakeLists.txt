@@ -55,6 +55,7 @@ add_message_files(
    WhiBattery.msg
    WhiMotionState.msg
    WhiTcpPose.msg
+   WhiJointPose.msg
    WhiBoundingBox.msg
    WhiBoundingBoxes.msg
    WhiIndicator.msg
@@ -69,6 +70,8 @@ add_message_files(
 add_service_files(
   FILES
    WhiSrvTcpPose.srv
+   WhiSrvJointPose.srv
+   WhiSrvJointNames.srv
    WhiSrvIo.srv
    WhiSrvQrcode.srv
    WhiSrvIndicator.srv

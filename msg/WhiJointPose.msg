@@ -1,0 +1,5 @@
+sensor_msgs/JointState joint_pose
+moveit_msgs/JointConstraint[] joint_constraints
+float64 velocity_scale
+float64 acceleration_scale
+bool is_relative
