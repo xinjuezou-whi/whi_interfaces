@@ -76,6 +76,7 @@ add_service_files(
    WhiSrvQrcode.srv
    WhiSrvIndicator.srv
    WhiSrvPartialDischarge.srv
+   WhiSrvMotionOffsets.srv
 )
 
 ## Generate actions in the 'action' folder
