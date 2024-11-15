@@ -2,3 +2,5 @@ int32 count
 ---
 string code
 geometry_msgs/PoseStamped offset_pose
+float64[] eulers
+float64[] eulers_degree
