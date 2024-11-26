@@ -1,0 +1,6 @@
+string pose_group
+sensor_msgs/JointState joint_pose
+geometry_msgs/PoseStamped tcp_pose
+---
+bool result
+geometry_msgs/Pose difference

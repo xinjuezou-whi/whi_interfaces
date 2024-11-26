@@ -70,6 +70,7 @@ add_message_files(
 add_service_files(
   FILES
    WhiSrvTcpPose.srv
+   WhiSrvTcpDifference.srv
    WhiSrvJointPose.srv
    WhiSrvJointNames.srv
    WhiSrvIo.srv
