@@ -1,3 +1,4 @@
 float64[] offsets
+float64 velocity_scale
 ---
 bool result
