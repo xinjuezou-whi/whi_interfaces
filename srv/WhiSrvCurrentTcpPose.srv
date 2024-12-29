@@ -1,0 +1,4 @@
+
+---
+bool result
+geometry_msgs/Pose pose

@@ -71,6 +71,7 @@ add_service_files(
   FILES
    WhiSrvTcpPose.srv
    WhiSrvTcpDifference.srv
+   WhiSrvCurrentTcpPose.srv
    WhiSrvJointPose.srv
    WhiSrvJointNames.srv
    WhiSrvIo.srv
