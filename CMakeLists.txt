@@ -64,6 +64,7 @@ add_message_files(
    WhiPartialDischarge.msg
    WhiVectorFloat.msg
    WhiLineChart2D.msg
+   WhiTemperatureHumidity.msg
 )
 
 ## Generate services in the 'srv' folder
