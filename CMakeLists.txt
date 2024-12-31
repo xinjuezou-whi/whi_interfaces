@@ -81,6 +81,7 @@ add_service_files(
    WhiSrvPartialDischarge.srv
    WhiSrvMotionOffsets.srv
    WhiSrvDepth.srv
+   WhiSrvTemperatureHumidity.srv
 )
 
 ## Generate actions in the 'action' folder

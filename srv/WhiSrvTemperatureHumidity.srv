@@ -1,0 +1,4 @@
+
+---
+whi_interfaces/WhiTemperatureHumidity temperature_humidity
+bool result
