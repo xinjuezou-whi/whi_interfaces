@@ -1,0 +1,4 @@
+string param
+int32 encoder_id
+---
+bool result

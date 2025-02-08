@@ -82,6 +82,7 @@ add_service_files(
    WhiSrvMotionOffsets.srv
    WhiSrvDepth.srv
    WhiSrvTemperatureHumidity.srv
+   WhiSrvArmEncoder.srv
 )
 
 ## Generate actions in the 'action' folder
