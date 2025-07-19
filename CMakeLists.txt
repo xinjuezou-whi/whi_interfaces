@@ -38,6 +38,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WhiTcpPose.msg"
   "msg/WhiTemperatureHumidity.msg"
   "msg/WhiVectorFloat.msg"
+  "msg/WhiCylinderPose.msg"
+  "msg/WhiCylinderPoseStamped.msg"
   "srv/WhiSrvArmEncoder.srv"
   "srv/WhiSrvCurrentTcpPose.srv"
   "srv/WhiSrvDepth.srv"
