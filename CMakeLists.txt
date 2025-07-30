@@ -40,6 +40,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WhiVectorFloat.msg"
   "msg/WhiCylinderPose.msg"
   "msg/WhiCylinderPoseStamped.msg"
+  "msg/WhiDecibel.msg"
   "srv/WhiSrvArmEncoder.srv"
   "srv/WhiSrvCurrentTcpPose.srv"
   "srv/WhiSrvDepth.srv"
@@ -53,6 +54,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/WhiSrvTcpDifference.srv"
   "srv/WhiSrvTcpPose.srv"
   "srv/WhiSrvTemperatureHumidity.srv"
+  "srv/WhiSrvDecibel.srv"
   "action/PoseRegistration.action"
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
