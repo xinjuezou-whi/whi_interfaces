@@ -21,6 +21,7 @@ find_package(std_msgs REQUIRED)
 find_package(actionlib_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(moveit_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -57,10 +58,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/WhiSrvTemperatureHumidity.srv"
   "srv/WhiSrvDecibel.srv"
   "action/PoseRegistration.action"
+  "action/SpinToPath.action"
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
   DEPENDENCIES action_msgs
   DEPENDENCIES moveit_msgs
+  DEPENDENCIES nav_msgs
  )
 
 if(BUILD_TESTING)
