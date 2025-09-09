@@ -7,7 +7,7 @@ uint16 COLLISION_AHEAD=703
 #goal definition
 nav_msgs/Path path
 float64 lookahead_distance
-string controller_id
+string action_id
 ---
 #result definition
 builtin_interfaces/Duration total_elapsed_time
