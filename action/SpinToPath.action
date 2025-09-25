@@ -3,15 +3,7 @@ nav_msgs/Path path
 float64 lookahead_distance
 ---
 #result definition
-uint16 NONE=0
-uint16 UNKNOWN=700
-uint16 TIMEOUT=701
-uint16 TF_ERROR=702
-uint16 COLLISION_AHEAD=703
-
 builtin_interfaces/Duration total_elapsed_time
-uint16 error_code
-string error_msg
 ---
 #feedback definition
 float32 angular_distance_traveled
