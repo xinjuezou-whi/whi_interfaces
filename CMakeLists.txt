@@ -22,6 +22,7 @@ find_package(actionlib_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(moveit_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
+find_package(diagnostic_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -43,6 +44,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WhiCylinderPoseStamped.msg"
   "msg/WhiDecibel.msg"
   "msg/WhiIo.msg"
+  "msg/WhiState.msg"
   "srv/WhiSrvArmEncoder.srv"
   "srv/WhiSrvCurrentTcpPose.srv"
   "srv/WhiSrvDepth.srv"
@@ -64,6 +66,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   DEPENDENCIES action_msgs
   DEPENDENCIES moveit_msgs
   DEPENDENCIES nav_msgs
+  DEPENDENCIES diagnostic_msgs
  )
 
 if(BUILD_TESTING)
