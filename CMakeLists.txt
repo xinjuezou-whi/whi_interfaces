@@ -45,6 +45,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WhiDecibel.msg"
   "msg/WhiIo.msg"
   "msg/WhiState.msg"
+  "msg/WhiRotaryLiftPoseStamped.msg"
   "srv/WhiSrvArmEncoder.srv"
   "srv/WhiSrvCurrentTcpPose.srv"
   "srv/WhiSrvDepth.srv"
