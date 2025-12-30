@@ -1,4 +1,4 @@
 std_msgs/Header header
-string[] links
+string[] joints
 float64[] positions
 float64[] velocities
