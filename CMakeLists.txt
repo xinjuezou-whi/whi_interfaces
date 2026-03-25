@@ -62,6 +62,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/WhiSrvDecibel.srv"
   "action/PoseRegistration.action"
   "action/SpinToPath.action"
+  "action/FollowObject.action"
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
   DEPENDENCIES action_msgs
