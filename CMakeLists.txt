@@ -60,6 +60,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/WhiSrvTcpPose.srv"
   "srv/WhiSrvTemperatureHumidity.srv"
   "srv/WhiSrvDecibel.srv"
+  "srv/WhiSrvBatteryState.srv"
+  "srv/WhiSrvBinaryState.srv"
   "action/PoseRegistration.action"
   "action/SpinToPath.action"
   "action/FollowObject.action"
