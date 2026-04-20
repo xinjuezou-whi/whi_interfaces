@@ -1,0 +1,4 @@
+whi_interfaces/WhiModBus instance
+---
+bool result
+uint8[] data
