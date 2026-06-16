@@ -4,3 +4,4 @@ moveit_msgs/JointConstraint[] joint_constraints
 float64 velocity_scale
 float64 acceleration_scale
 bool is_cartesian
+int32 execution_timeout
