@@ -50,6 +50,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WhiPoseGroup.msg"
   "srv/WhiSrvArmEncoder.srv"
   "srv/WhiSrvCurrentTcpPose.srv"
+  "srv/WhiSrvCurrentJointPose.srv"
   "srv/WhiSrvDepth.srv"
   "srv/WhiSrvIndicator.srv"
   "srv/WhiSrvIo.srv"

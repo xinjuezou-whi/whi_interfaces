@@ -1,0 +1,4 @@
+
+---
+bool result
+sensor_msgs/JointState joint_pose
