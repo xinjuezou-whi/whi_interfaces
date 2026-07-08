@@ -1,11 +1,14 @@
 #goal definition
 geometry_msgs/PoseStamped offset
-float64 velocity_scale
+float64 zig_angle
+float64 timeout
 ---
 #result definition
 builtin_interfaces/Duration total_elapsed_time
 ---
 #feedback
-uint8 PROC_STANDBY=0
-uint8 PROC_ACTING=1
+uint8 PROC_SUCCEED=0
+uint8 PROC_FAILED=1
+uint8 PROC_TIMEOUT=2
+uint8 PROC_ACTING=3
 uint8 state
