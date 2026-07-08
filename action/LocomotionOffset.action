@@ -1,0 +1,11 @@
+#goal definition
+geometry_msgs/PoseStamped offset
+float64 velocity_scale
+---
+#result definition
+builtin_interfaces/Duration total_elapsed_time
+---
+#feedback
+uint8 PROC_STANDBY=0
+uint8 PROC_ACTING=1
+uint8 state

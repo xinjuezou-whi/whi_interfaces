@@ -69,6 +69,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/PoseRegistration.action"
   "action/SpinToPath.action"
   "action/FollowObject.action"
+  "action/LocomotionOffset.action"
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
   DEPENDENCIES action_msgs
