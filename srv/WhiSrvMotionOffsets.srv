@@ -1,4 +1,5 @@
 float64[] offsets
 float64 zig_angle
+float64 timeout
 ---
 bool result
