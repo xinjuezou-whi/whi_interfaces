@@ -1,4 +1,4 @@
 float64[] offsets
-float64 velocity_scale
+float64 zig_angle
 ---
 bool result
